@@ -10,7 +10,6 @@ TEST(CheckPrimeTest, SmallValues) {
   EXPECT_TRUE(checkPrime(3));
   EXPECT_FALSE(checkPrime(4));
   EXPECT_TRUE(checkPrime(5));
-  // Добавить дополнительные тестовые случаи по вашему усмотрению
 }
 
 TEST(NPrimeTest, SmallValues) {
@@ -18,7 +17,6 @@ TEST(NPrimeTest, SmallValues) {
   EXPECT_EQ(nPrime(2), 3);
   EXPECT_EQ(nPrime(3), 5);
   EXPECT_EQ(nPrime(4), 7);
-  // Добавить дополнительные тестовые случаи по вашему усмотрению
 }
 
 TEST(NextPrimeTest, SmallValues) {
@@ -26,11 +24,9 @@ TEST(NextPrimeTest, SmallValues) {
   EXPECT_EQ(nextPrime(3), 5);
   EXPECT_EQ(nextPrime(5), 7);
   EXPECT_EQ(nextPrime(7), 11);
-  // Добавить дополнительные тестовые случаи по вашему усмотрению
 }
 
 TEST(SumPrimeTest, SmallValues) {
   EXPECT_EQ(sumPrime(10), 17);
   EXPECT_EQ(sumPrime(20), 77);
-  // Добавить дополнительные тестовые случаи по вашему усмотрению
 }
